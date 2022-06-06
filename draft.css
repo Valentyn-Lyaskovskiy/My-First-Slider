@@ -11,7 +11,7 @@ body {
 h1 {
   margin: 40px 60px;
   font-size: 54px;
-  color: #000080;
+  color: #32abed;
   font-weight: bold;
   /* text-align: center; */
   text-transform: uppercase;
@@ -30,8 +30,20 @@ h1 {
 .wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 50px;
+}
+
+.icon,
+.icon2 {
+  width: 34px;
+  height: 34px;
+  color: #32abed;
+}
+
+.icon2 {
+  margin-left: 5px;
 }
 
 .wrapper2 {
